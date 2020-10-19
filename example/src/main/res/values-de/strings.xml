@@ -14,5 +14,6 @@
         <item quantity="one">%d quantity string DE</item>
         <item quantity="other">%d quantity strings DE</item>
     </plurals>
+    <string name="string_test">Test String</string>
 
 </resources>

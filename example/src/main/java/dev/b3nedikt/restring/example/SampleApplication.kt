@@ -19,9 +19,9 @@ class SampleApplication : Application() {
         Restring.init(this)
         Restring.localeProvider = AppLocaleLocaleProvider
 
-        ViewPump.init(ViewPump.builder()
+        /*ViewPump.init(ViewPump.builder()
                 .addInterceptor(RewordInterceptor)
                 .build()
-        )
+        )*/
     }
 }

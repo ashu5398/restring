@@ -9,10 +9,11 @@ import dev.b3nedikt.viewpump.ViewPumpContextWrapper
 abstract class BaseActivity : AppCompatActivity() {
 
     override fun attachBaseContext(newBase: Context) {
-        super.attachBaseContext(ViewPumpContextWrapper.wrap(Restring.wrapContext(newBase)))
+        super.attachBaseContext(Restring.wrapContext(newBase))
     }
 
     override fun getResources(): Resources {
         return Restring.wrapContext(baseContext).resources
     }
+
 }
